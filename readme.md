@@ -1,4 +1,4 @@
-Creating a Remote Server on DigitalOcean with Arch Linux
+# Creating a Remote Server on DigitalOcean with Arch Linux
 
 **Table of contents**
 1. **Generate SSH keys**
