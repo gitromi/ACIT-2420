@@ -20,7 +20,8 @@ On windows, you may have to create a .ssh directory in your home directory first
 
 
 i. Open your terminal and run the following commmand: 
-ssh-keygen -t ed25519 -f ~/.ssh/do-key -C "your email address"
+
+    ssh-keygen -t ed25519 -f ~/.ssh/do-key -C "your email address"
 
 In powershell, Tilde does not always work. You may have to enter the full path. Replace "your-user-name" with your Windows user name, and "youremail@email.com" with your email account.
 
