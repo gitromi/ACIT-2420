@@ -77,6 +77,7 @@ iii. You will recieve the key fingerprint. Select and copy your key fingerprint.
     1. Create a yaml file called cloud-config.yaml in your .ssh directory.
     Inside the yaml file, you should have the following contents:
     ~~~
+    #cloud-config
         users:
           - name: user-name #change me
             primary_group: group-name #change me
@@ -96,6 +97,9 @@ iii. You will recieve the key fingerprint. Select and copy your key fingerprint.
         - bash-completion
         - tmux
 
-        disable_root: true
-~~~
+        disable_root: true~~~
+
+Citations:
+
+Red Hat. "Introduction to Cloud-Init." Configuring and Managing Cloud-Init for RHEL 9, Red Hat, https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_and_managing_cloud-init_for_rhel_9/introduction-to-cloud-init_cloud-content.
 
