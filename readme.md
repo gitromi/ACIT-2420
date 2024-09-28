@@ -98,7 +98,7 @@ iii. You will recieve the key fingerprint. Select and copy your key fingerprint.
         - tmux
 
         disable_root: true 
-        ~~~
+
 
 Citations:
 
