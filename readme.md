@@ -55,8 +55,17 @@ iii. You will recieve the key fingerprint. Select and copy your key fingerprint.
     1. Click on **droplets** on the side bar
     2. Under **Choose an image**, select **Custom Images** and pick the Arch Linux image you uploaded from earlier.
     3. Select the following options:
-    - **Choose region**: San Francisco
-    - **Droplet Type**: Share CPU, Basic
-    - **CPU Options**: Premium AMD and $7/Month option
-    - **Authentication Method**: SSH Key, select the SSH Key you created
+        - **Choose region**: San Francisco
+        - **Droplet Type**: Share CPU, Basic
+        - **CPU Options**: Premium AMD and $7/Month option
+        - **Authentication Method**: SSH Key, select the SSH Key you created
     4. Click **Create Droplet**
+
+5. **Using cloud-init for Automation**
+    What is cloud-init?
+    Cloud-init is a tool to automate the initilization of cloud instances during a system boot. It is useful for tasks like:
+    - Setting up new users
+    - Installing packages
+    - Running scripts
+    - Configuring networks without manual intervention
+    [Red Hat Documentation](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_and_managing_cloud-init_for_rhel_9/introduction-to-cloud-init_cloud-content)
