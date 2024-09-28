@@ -8,6 +8,8 @@
 5. **Using cloud-init for Automation**
 6. **Connect to Your Droplet Using SSH**
 
+
+
 1. **Generate an SSH Key**
 
 What are SSH keys?
