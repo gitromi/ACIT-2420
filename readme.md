@@ -33,7 +33,7 @@ In powershell, Tilde does not always work. You may have to enter the full path. 
 
 2. **Add your SSH Key to DigitalOcean**
     Why add SSH keys to DigitalOcean?
-    - Adding your SSH key to DigitalOcean will allow you to securely access any droplet you create, without the need to enter a password.
+    Adding your SSH key to DigitalOcean will allow you to securely access any droplet you create, without the need to enter a password.
 
     1. Log in to digital ocean
     2. Navigate to Settings on the side bar
@@ -43,7 +43,19 @@ In powershell, Tilde does not always work. You may have to enter the full path. 
 
 3. **Add a Custom Arch Linux Image**
     Why use a custom Arch Linux image?
-    - Arch Linux is not a default option on DigitalOcean, therefore, you will need to upload a custom image if you want to use it.
+    Arch Linux is not a default option on DigitalOcean, therefore, you will need to upload a custom image if you want to use it.
 
     Download the Arch Linux Image [Here](https://gitlab.archlinux.org/archlinux/arch-boxes/-/packages/1545)
     Ensure you download this: ![alt text](image-1.png)
+
+4. **Create a Droplet Running Arch Linux**
+    Why use SSH keys for droplet?
+
+    1. Click on **droplets** on the side bar
+    2. Under **Choose an image**, select **Custom Images** and pick the Arch Linux image you uploaded from earlier.
+    3. Select the following options:
+    - **Choose region**: San Francisco
+    - **Droplet Type**: Share CPU, Basic
+    - **CPU Options**: Premium AMD and $7/Month option
+    - **Authentication Method**: SSH Key, select the SSH Key you created
+    4. Click **Create Droplet**
