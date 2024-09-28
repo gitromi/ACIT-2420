@@ -1,12 +1,12 @@
 Creating a Remote Server on DigitalOcean with Arch Linux
 
 **Table of contents**
-**1. Generate SSH keys**
-**2. Add SSH Key to DigitalOcean**
-**3. Add a Custom Arch Linux Image**
-**4. Create a Droplet Running Arch Linux**
-**5. Using cloud-init for Automation**
-**6. Connect to Your Droplet Using SSH**
+1. **Generate SSH keys**
+2. **Add SSH Key to DigitalOcean**
+3. **Add a Custom Arch Linux Image**
+4. **Create a Droplet Running Arch Linux**
+5. **Using cloud-init for Automation**
+6. **Connect to Your Droplet Using SSH**
 
 1. **Generate an SSH Key**
 
