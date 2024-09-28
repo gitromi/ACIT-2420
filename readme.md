@@ -97,7 +97,8 @@ iii. You will recieve the key fingerprint. Select and copy your key fingerprint.
         - bash-completion
         - tmux
 
-        disable_root: true~~~
+        disable_root: true 
+        ~~~
 
 Citations:
 
