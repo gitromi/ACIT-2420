@@ -24,7 +24,7 @@ ssh-keygen -t ed25519 -f ~/.ssh/do-key -C "your email address"
 
 In powershell, Tilde does not always work. You may have to enter the full path. Replace "your-user-name" with your Windows user name, and "youremail@email.com" with your email account.
 
-    ```ssh-keygen -t ed25519 -f C:\Users\your-user-name\.ssh\do-key -C "youremail@email.com"```
+    ssh-keygen -t ed25519 -f C:\Users\your-user-name\.ssh\do-key -C "youremail@email.com"
 
 
 ii. After running that command, you will recieve a prompt to enter a passphrase. You can leave this blank. If you do decide to create a passphrase, make sure to remember it/have it written down somewhere safe.
@@ -69,3 +69,5 @@ iii. You will recieve the key fingerprint. Select and copy your key fingerprint.
     - Running scripts
     - Configuring networks without manual intervention
     [Red Hat Documentation](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_and_managing_cloud-init_for_rhel_9/introduction-to-cloud-init_cloud-content)
+
+    **Adding the cloud-init 
