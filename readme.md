@@ -76,7 +76,7 @@ iii. You will recieve the key fingerprint. Select and copy your key fingerprint.
     **Use a cloud-init configuration file to automate initial setup tasks**
     1. Create a yaml file called cloud-config.yaml in your .ssh directory.
     Inside the yaml file, you should have the following contents:
-    
+    ~~~
         users:
           - name: user-name #change me
             primary_group: group-name #change me
@@ -97,5 +97,5 @@ iii. You will recieve the key fingerprint. Select and copy your key fingerprint.
         - tmux
 
         disable_root: true
-
+~~~
 
