@@ -8,7 +8,7 @@
 5. **Using cloud-init for Automation**
 6. **Connect to Your Droplet Using SSH**
 
-
+<!-- End of Table of Contents -->
 
 1. **Generate an SSH Key**
 
@@ -73,4 +73,29 @@ iii. You will recieve the key fingerprint. Select and copy your key fingerprint.
     - Configuring networks without manual intervention
     [Red Hat Documentation](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_and_managing_cloud-init_for_rhel_9/introduction-to-cloud-init_cloud-content)
 
-    **Adding the cloud-init 
+    **Use a cloud-init configuration file to automate initial setup tasks**
+    1. Create a yaml file called cloud-config.yaml in your .ssh directory.
+    Inside the yaml file, you should have the following contents:
+    
+        users:
+          - name: user-name #change me
+            primary_group: group-name #change me
+            groups: wheel
+            shell: /bin/bash
+            sudo: ['ALL=(ALL) NOPASSWD:ALL']
+            ssh-authorized-keys:
+              - ssh-ed25519 ...
+
+        packages:
+        - ripgrep
+        - rsync
+        - neovim
+        - fd
+        - less
+        - man-db
+        - bash-completion
+        - tmux
+
+        disable_root: true
+
+
