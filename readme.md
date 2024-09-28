@@ -53,7 +53,6 @@ iii. You will recieve the key fingerprint. Select and copy your key fingerprint.
     Ensure you download this: ![alt text](image-1.png)
 
 4. **Create a Droplet Running Arch Linux**
-    Why use SSH keys for droplet?
 
     1. Click on **droplets** on the side bar
     2. Under **Choose an image**, select **Custom Images** and pick the Arch Linux image you uploaded from earlier.
@@ -103,4 +102,5 @@ iii. You will recieve the key fingerprint. Select and copy your key fingerprint.
 Citations:
 
 Red Hat. "Introduction to Cloud-Init." Configuring and Managing Cloud-Init for RHEL 9, Red Hat, https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_and_managing_cloud-init_for_rhel_9/introduction-to-cloud-init_cloud-content.
+
 
